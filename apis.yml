@@ -1,7 +1,23 @@
 aid: microterra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microterra.png
 name: microTERRA
-description: microTERRA is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: microTERRA is a Mexico-based food-ingredient company that develops functional
+  ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor
+  enhancers and texture modifiers for the food and beverage industry, positioned as sustainable,
+  clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed
+  B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose
+  any public developer API, SDK, CLI, or technical documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Food
+- Food and Beverage
+- Ingredients
+- Sustainability
+- Biotechnology
+- Agriculture
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/microterra-domain-security.yml
 - type: Website
-  url: https://microterra.com.mx/
+  url: https://www.microterra.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
