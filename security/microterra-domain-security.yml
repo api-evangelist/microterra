@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: microterra.com.mx
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 26 23:24:57 2026 GMT
+  hsts: true
+  hsts_max_age: 31556952
+domains:
+- domain: microterra.com.mx
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
